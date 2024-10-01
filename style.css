@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ecf2f8;
+}
+.container {
+  width: 1110px;
+  height: 572px;
+  flex-shrink: 0;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "daniel daniel daniel jonathan kira"
+    "jeanette patrick patrick patrick kira";
+}
+.box1 {
+  display: grid;
+  width: 540px;
+  height: 266px;
+  background-color: #733fc8;
+  border-radius: 8px;
+  grid-area: daniel;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon1 {
+  width: 136px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading-1 {
+  width: 476px;
+  height: 72px;
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paragraph-1 {
+  width: 476px;
+  height: 90px;
+  color: #cfcfcf;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.box-heading {
+  width: 476px;
+  height: 72px;
+  top: 236px;
+  left: 197px;
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.box-paragraph {
+  width: 476px;
+  height: 90px;
+  top: 324px;
+  left: 197px;
+  color: #cfcfcf;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.box2 {
+  width: 255px;
+  height: 282px;
+  background-color: #48556a;
+  border-radius: 8px;
+  display: grid;
+  grid-area: jonathan;
+  margin-left: -95px;
+  justify-content: center;
+  align-items: center;
+}
+.icon2 {
+  width: 136px;
+  height: 28px;
+  top: 190px;
+  left: 767px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+}
+.verify {
+  color: gray;
+  font-family: "Barlow Semi Condensed";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11px;
+}
+.heading-2 {
+  width: 191px;
+  height: 72px;
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paragraph-2 {
+  width: 191px;
+  height: 90px;
+
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.box3 {
+  width: 255px;
+  height: 572px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: grid;
+  grid-area: kira;
+  justify-content: center;
+  align-items: center;
+}
+.icon3 {
+  width: 121px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name-1 {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+}
+.verify-1 {
+  color: #828d9e;
+  font-family: "Barlow Semi Condensed";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11px;
+}
+.hading-3 {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paragraph-3 {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.box4 {
+  width: 255px;
+  height: 266px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: grid;
+  grid-area: jeanette;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.icon4 {
+  width: 150px;
+  height: 28px;
+  top: 496px;
+  left: 197px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading-4 {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paragraph-4 {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.box5 {
+  width: 540px;
+  height: 266px;
+  background-color: #19202d;
+  border-radius: 8px;
+  display: grid;
+  grid-area: patrick;
+  justify-content: center;
+  align-items: center;
+}
+.icon5 {
+  width: 124px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading-5 {
+  color: #ecf2f8;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paragraph-5 {
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
